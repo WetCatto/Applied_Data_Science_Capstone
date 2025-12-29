@@ -1,8 +1,5 @@
 # SpaceX Falcon 9 First Stage Landing Prediction
 
-![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-
 ## Project Overview
 This repository contains the Capstone Project for the **IBM Data Science Professional Certificate**. 
 
@@ -42,13 +39,10 @@ The project follows the standard data science methodology:
 
 ## Results
 
-* **Best Performing Model:** [Insert Model Name, e.g., Decision Tree Classifier]
-* **Accuracy Score:** [Insert Score, e.g., 83.33%]
-* **Key Insight:** [Insert a quick sentence, e.g., "Launch success has improved significantly over time, and heavier payloads do not necessarily correlate with failure."]
+* **Best Performing Model:** All models (Logistic Regression, SVM, Decision Tree, and KNN) performed similarly on the test set.
+* **Accuracy Score:** 83.33%
+* **Key Insight:** Launch success rates have improved significantly as the flight number increases. Additionally, specific orbits (ES-L1, GEO, HEO, SSO) have remarkably high success rates, while payload mass alone is not a strict indicator of failure.
 
 ## Technologies Used
 * **Languages:** Python, SQL
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Folium, Plotly Dash, BeautifulSoup, Requests.
-
-## Credits
-This project was completed as part of the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) on Coursera.
