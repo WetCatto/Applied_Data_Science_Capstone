@@ -3,15 +3,15 @@
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 
-## 📄 Project Overview
+## Project Overview
 This repository contains the Capstone Project for the **IBM Data Science Professional Certificate**. 
 
 The goal of this project is to predict whether the Falcon 9 first stage will land successfully. SpaceX advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars. A significant amount of the savings is due to SpaceX's ability to reuse the first stage. Therefore, if we can determine if the first stage will land, we can determine the cost of a launch.
 
-## ❓ Problem Statement
+## Problem Statement
 Build a machine learning pipeline to predict if the Falcon 9 Space X first stage will land successfully.
 
-## 📂 Repository Structure
+## Repository Structure
 
 The project follows the standard data science methodology:
 
@@ -26,7 +26,7 @@ The project follows the standard data science methodology:
 | **Interactive Visual Analytics - Plotly.py** | Built a Dashboard application using Plotly Dash. |
 | **Machine Learning Prediction.ipynb** | Built and tuned classification models (Logistic Regression, SVM, Decision Tree, KNN). |
 
-## 📊 Methodology
+## Methodology
 
 1.  **Data Collection:** Used the SpaceX REST API and web scraping to gather launch data.
 2.  **Data Wrangling:** Filtered for Falcon 9 launches, handled missing payloads and landing details, and created class labels (1 for success, 0 for failure).
@@ -40,17 +40,15 @@ The project follows the standard data science methodology:
     * Tuned hyperparameters using GridSearchCV.
     * Compared model accuracy.
 
-## 📈 Results
+## Results
 
 * **Best Performing Model:** [Insert Model Name, e.g., Decision Tree Classifier]
 * **Accuracy Score:** [Insert Score, e.g., 83.33%]
 * **Key Insight:** [Insert a quick sentence, e.g., "Launch success has improved significantly over time, and heavier payloads do not necessarily correlate with failure."]
 
-*(Optional: Add a screenshot of your best Confusion Matrix or your Dash App here)*
-
-## 🛠 Technologies Used
+## Technologies Used
 * **Languages:** Python, SQL
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Folium, Plotly Dash, BeautifulSoup, Requests.
 
-## 📜 Credits
+## Credits
 This project was completed as part of the [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science) on Coursera.
